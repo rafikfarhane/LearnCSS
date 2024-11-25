@@ -1,11 +1,27 @@
-body{
-    font-size: 21px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    line-height: 1.5;
-    background: #000;
-    color: rgb(0,0,0);
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
+body{
+    min-height: 100vh;
+}
+
+
+
+h1{
+    border: 2px dashed red;
+    width: 50%; /*50% of the parent element*/
+    font-size: 3rem;
+    padding: 0.5em;
+    
+}
+
+main{
+    font-size: 2rem;}
+
 p{
-    color: #fff;
+    font-size: 2rem;/*default, so 100% of the root-element(html{}, let browser set this)*/
+    width: 40ch;
 }
