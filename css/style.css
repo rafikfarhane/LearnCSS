@@ -1,39 +1,11 @@
-/*all elemnts inherit from body element*/
-/*border wont be inherited*/
-html{
-    font-size: 22px;
+body{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    background: #000;
+    color: rgb(0,0,0);
 }
 
-main{
-    font-family: monospace;
-}
-
-h1, h2{
-    color:blue
-}
-
-/*element selectors select all elements of that type*/
 p{
-    color: purple;    
-}
-
-.highlight{
-    text-transform:  uppercase;
-    background-color: gold;
-
-}
-
-/*classes can be used multiple times and are more specific than an element-selector*/
-.gray{
-    color: gray;
-}
-
-
-/*id's are specific selectors, should be unique, but should not be in CSS*/
-#second{
-    font-style:italic;
-}
-
-*{
-    font-family: monospace;
+    color: #fff;
 }
